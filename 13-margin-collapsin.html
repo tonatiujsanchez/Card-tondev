@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Collapsin</title>
+    <style>
+        section{
+            display: grid;
+            margin: 50px;
+        }
+        div{
+            background-color: lavender;
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>Platzi</div>
+        <div>Master</div>    
+    </section>
+    <section>
+        <div>Platzi</div>
+        <div>Master</div>    
+    </section>
+</body>
+</html>
+
+<!-- 
+    El colapso de margenes sucede cuando ambos elementos con de tipo 'block'
+    *NO sucede cuando estos elementos tienen un padre de tipo Flex o Grid
+ -->

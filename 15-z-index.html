@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Index</title>
+
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: 3rem;
+        }
+        .blue{
+            background-color: lightblue;
+            top: 2rem;
+
+            z-index: 4;
+        }
+        .yellow{
+            top: 2rem;
+            margin-left: 2rem;
+            background-color: lightgoldenrodyellow;
+
+            z-index: 6;
+        }
+        .red{
+            top: 10rem;
+            background-color: coral;
+            z-index: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="blue">
+        <span>4</span>
+        <div class="yellow">
+            <span>6</span>
+        </div>
+    </div>
+    <div class="red">
+        <span>5</span>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seudoclases | Seudoelementos</title>
+    <style>
+        .p1{
+             color: salmon;
+             font-size: 2rem;
+        }
+        .p1:hover{
+            color: skyblue;
+        }
+        .p1::before{
+            content: '💥';
+        }
+        .p1::after{
+            content: '✔';
+        }
+        div .p1:nth-child(2){
+            color: springgreen;
+        }
+        div p::first-letter{
+            color: rgb(7, 59, 0);
+            text-transform: uppercase;
+        }
+        input{
+            padding: 0.5rem 0.5rem;
+            border-radius: 0.2rem;
+            border: 2px solid rgb(137, 137, 221);
+        }
+        input::placeholder{
+            color: tomato;
+            text-transform: capitalize;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <p class="p1">Hola</p>
+    <div>
+        <p class="p1"> child(1) lorem 1</p>
+        <p class="p1"> child(2) lorem 2</p>
+        <p class="p1"> child(3) lorem 3</p>
+    </div>
+    <input type="text" placeholder="name 🙍‍♂️">
+</body>
+</html>

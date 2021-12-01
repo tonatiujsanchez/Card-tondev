@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .container{
+            background-color: lavender;
+            width: 300px;
+            height: 300px;
+            
+            position: relative;
+            top: 20px;
+        }
+        .item{
+            background-color: lightcoral;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            right: 10px;
+
+        }
+        .item-child{
+            background-color: khaki;
+            width: 50px;
+            height: 50px;
+            position: inherit;
+            right: 0;
+            bottom: 0;
+        }
+        a{
+            color: lightcoral;
+            text-decoration: none;
+        }
+        nav{
+            width: 100%;
+            background-color: lavenderblush;
+            position: sticky;
+            top: 0;
+        }
+        
+        nav ul{
+            list-style: none;
+            padding: 0;
+            height: 60px;
+
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+        }
+        .list p{
+            margin-bottom: 2rem;
+            position: sticky;
+            top: 60px;
+        }
+        .list li{
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item"></div>
+    </div>
+    <div class="container">
+        <div class="item">
+            <div class="item-child">
+
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <ul class="list">
+        <p>List Title</p>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Blog</li>
+        <li>Contact</li>
+        <li>Footer</li>
+    </ul>
+    <ul class="list">
+        <p>List Title 1</p>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Blog</li>
+        <li>Contact</li>
+        <li>Footer</li>
+    </ul>
+    <ul class="list">
+        <p>List Title 2</p>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Blog</li>
+        <li>Contact</li>
+        <li>Footer</li>
+    </ul>
+    <ul class="list">
+        <p>List Title 3</p>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Blog</li>
+        <li>Contact</li>
+        <li>Footer</li>
+    </ul>
+    <ul class="list">
+        <p>List Title 4</p>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Blog</li>
+        <li>Contact</li>
+        <li>Footer</li>
+    </ul>
+    <ul class="list">
+        <p>List Title 5</p>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Blog</li>
+        <li>Contact</li>
+        <li>Footer</li>
+    </ul>
+    <ul class="list">
+        <p>List Title 6</p>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Blog</li>
+        <li>Contact</li>
+        <li>Footer</li>
+    </ul>
+    <ul class="list">
+        <p>List Title 7</p>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Blog</li>
+        <li>Contact</li>
+        <li>Footer</li>
+    </ul>
+    <ul class="list">
+        <p>List Title 8</p>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Blog</li>
+        <li>Contact</li>
+        <li>Footer</li>
+    </ul>
+    <ul class="list">
+        <p>List Title 9</p>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Blog</li>
+        <li>Contact</li>
+        <li>Footer</li>
+    </ul>
+    <ul class="list">
+        <p>List Title 10</p>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Blog</li>
+        <li>Contact</li>
+        <li>Footer</li>
+    </ul>
+    <main>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum similique quae odit rem quo laboriosam natus, sequi quaerat! Eius ipsam assumenda, incidunt atque numquam dolorum cumque eaque voluptate velit ullam temporibus. Autem, ea? Aut molestiae nostrum, porro deleniti consectetur eaque officiis vero magnam? Autem delectus debitis hic, saepe porro nulla cum sit velit non libero possimus adipisci animi obcaecati quod qui provident enim corporis dignissimos mollitia quam sunt quidem ad laboriosam et. Nam, expedita soluta! Culpa, error vel ratione tenetur dolore numquam expedita quia quisquam commodi laboriosam maxime nulla officia repudiandae impedit sapiente beatae ipsa temporibus odio maiores ut nam voluptatibus animi hic? Harum similique, sapiente culpa nobis dolore suscipit facere at debitis iste! Cumque temporibus inventore ipsum dicta id, eaque sapiente ratione minima. Maiores iure exercitationem impedit similique, ipsa amet sint odio nemo eos omnis adipisci reiciendis officia quia voluptate! In error illo odio suscipit alias culpa minima?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum similique quae odit rem quo laboriosam natus, sequi quaerat! Eius ipsam assumenda, incidunt atque numquam dolorum cumque eaque voluptate velit ullam temporibus. Autem, ea? Aut molestiae nostrum, porro deleniti consectetur eaque officiis vero magnam? Autem delectus debitis hic, saepe porro nulla cum sit velit non libero possimus adipisci animi obcaecati quod qui provident enim corporis dignissimos mollitia quam sunt quidem ad laboriosam et. Nam, expedita soluta! Culpa, error vel ratione tenetur dolore numquam expedita quia quisquam commodi laboriosam maxime nulla officia repudiandae impedit sapiente beatae ipsa temporibus odio maiores ut nam voluptatibus animi hic? Harum similique, sapiente culpa nobis dolore suscipit facere at debitis iste! Cumque temporibus inventore ipsum dicta id, eaque sapiente ratione minima. Maiores iure exercitationem impedit similique, ipsa amet sint odio nemo eos omnis adipisci reiciendis officia quia voluptate! In error illo odio suscipit alias culpa minima?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum similique quae odit rem quo laboriosam natus, sequi quaerat! Eius ipsam assumenda, incidunt atque numquam dolorum cumque eaque voluptate velit ullam temporibus. Autem, ea? Aut molestiae nostrum, porro deleniti consectetur eaque officiis vero magnam? Autem delectus debitis hic, saepe porro nulla cum sit velit non libero possimus adipisci animi obcaecati quod qui provident enim corporis dignissimos mollitia quam sunt quidem ad laboriosam et. Nam, expedita soluta! Culpa, error vel ratione tenetur dolore numquam expedita quia quisquam commodi laboriosam maxime nulla officia repudiandae impedit sapiente beatae ipsa temporibus odio maiores ut nam voluptatibus animi hic? Harum similique, sapiente culpa nobis dolore suscipit facere at debitis iste! Cumque temporibus inventore ipsum dicta id, eaque sapiente ratione minima. Maiores iure exercitationem impedit similique, ipsa amet sint odio nemo eos omnis adipisci reiciendis officia quia voluptate! In error illo odio suscipit alias culpa minima?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum similique quae odit rem quo laboriosam natus, sequi quaerat! Eius ipsam assumenda, incidunt atque numquam dolorum cumque eaque voluptate velit ullam temporibus. Autem, ea? Aut molestiae nostrum, porro deleniti consectetur eaque officiis vero magnam? Autem delectus debitis hic, saepe porro nulla cum sit velit non libero possimus adipisci animi obcaecati quod qui provident enim corporis dignissimos mollitia quam sunt quidem ad laboriosam et. Nam, expedita soluta! Culpa, error vel ratione tenetur dolore numquam expedita quia quisquam commodi laboriosam maxime nulla officia repudiandae impedit sapiente beatae ipsa temporibus odio maiores ut nam voluptatibus animi hic? Harum similique, sapiente culpa nobis dolore suscipit facere at debitis iste! Cumque temporibus inventore ipsum dicta id, eaque sapiente ratione minima. Maiores iure exercitationem impedit similique, ipsa amet sint odio nemo eos omnis adipisci reiciendis officia quia voluptate! In error illo odio suscipit alias culpa minima?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum similique quae odit rem quo laboriosam natus, sequi quaerat! Eius ipsam assumenda, incidunt atque numquam dolorum cumque eaque voluptate velit ullam temporibus. Autem, ea? Aut molestiae nostrum, porro deleniti consectetur eaque officiis vero magnam? Autem delectus debitis hic, saepe porro nulla cum sit velit non libero possimus adipisci animi obcaecati quod qui provident enim corporis dignissimos mollitia quam sunt quidem ad laboriosam et. Nam, expedita soluta! Culpa, error vel ratione tenetur dolore numquam expedita quia quisquam commodi laboriosam maxime nulla officia repudiandae impedit sapiente beatae ipsa temporibus odio maiores ut nam voluptatibus animi hic? Harum similique, sapiente culpa nobis dolore suscipit facere at debitis iste! Cumque temporibus inventore ipsum dicta id, eaque sapiente ratione minima. Maiores iure exercitationem impedit similique, ipsa amet sint odio nemo eos omnis adipisci reiciendis officia quia voluptate! In error illo odio suscipit alias culpa minima?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum similique quae odit rem quo laboriosam natus, sequi quaerat! Eius ipsam assumenda, incidunt atque numquam dolorum cumque eaque voluptate velit ullam temporibus. Autem, ea? Aut molestiae nostrum, porro deleniti consectetur eaque officiis vero magnam? Autem delectus debitis hic, saepe porro nulla cum sit velit non libero possimus adipisci animi obcaecati quod qui provident enim corporis dignissimos mollitia quam sunt quidem ad laboriosam et. Nam, expedita soluta! Culpa, error vel ratione tenetur dolore numquam expedita quia quisquam commodi laboriosam maxime nulla officia repudiandae impedit sapiente beatae ipsa temporibus odio maiores ut nam voluptatibus animi hic? Harum similique, sapiente culpa nobis dolore suscipit facere at debitis iste! Cumque temporibus inventore ipsum dicta id, eaque sapiente ratione minima. Maiores iure exercitationem impedit similique, ipsa amet sint odio nemo eos omnis adipisci reiciendis officia quia voluptate! In error illo odio suscipit alias culpa minima?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum similique quae odit rem quo laboriosam natus, sequi quaerat! Eius ipsam assumenda, incidunt atque numquam dolorum cumque eaque voluptate velit ullam temporibus. Autem, ea? Aut molestiae nostrum, porro deleniti consectetur eaque officiis vero magnam? Autem delectus debitis hic, saepe porro nulla cum sit velit non libero possimus adipisci animi obcaecati quod qui provident enim corporis dignissimos mollitia quam sunt quidem ad laboriosam et. Nam, expedita soluta! Culpa, error vel ratione tenetur dolore numquam expedita quia quisquam commodi laboriosam maxime nulla officia repudiandae impedit sapiente beatae ipsa temporibus odio maiores ut nam voluptatibus animi hic? Harum similique, sapiente culpa nobis dolore suscipit facere at debitis iste! Cumque temporibus inventore ipsum dicta id, eaque sapiente ratione minima. Maiores iure exercitationem impedit similique, ipsa amet sint odio nemo eos omnis adipisci reiciendis officia quia voluptate! In error illo odio suscipit alias culpa minima?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum similique quae odit rem quo laboriosam natus, sequi quaerat! Eius ipsam assumenda, incidunt atque numquam dolorum cumque eaque voluptate velit ullam temporibus. Autem, ea? Aut molestiae nostrum, porro deleniti consectetur eaque officiis vero magnam? Autem delectus debitis hic, saepe porro nulla cum sit velit non libero possimus adipisci animi obcaecati quod qui provident enim corporis dignissimos mollitia quam sunt quidem ad laboriosam et. Nam, expedita soluta! Culpa, error vel ratione tenetur dolore numquam expedita quia quisquam commodi laboriosam maxime nulla officia repudiandae impedit sapiente beatae ipsa temporibus odio maiores ut nam voluptatibus animi hic? Harum similique, sapiente culpa nobis dolore suscipit facere at debitis iste! Cumque temporibus inventore ipsum dicta id, eaque sapiente ratione minima. Maiores iure exercitationem impedit similique, ipsa amet sint odio nemo eos omnis adipisci reiciendis officia quia voluptate! In error illo odio suscipit alias culpa minima?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum similique quae odit rem quo laboriosam natus, sequi quaerat! Eius ipsam assumenda, incidunt atque numquam dolorum cumque eaque voluptate velit ullam temporibus. Autem, ea? Aut molestiae nostrum, porro deleniti consectetur eaque officiis vero magnam? Autem delectus debitis hic, saepe porro nulla cum sit velit non libero possimus adipisci animi obcaecati quod qui provident enim corporis dignissimos mollitia quam sunt quidem ad laboriosam et. Nam, expedita soluta! Culpa, error vel ratione tenetur dolore numquam expedita quia quisquam commodi laboriosam maxime nulla officia repudiandae impedit sapiente beatae ipsa temporibus odio maiores ut nam voluptatibus animi hic? Harum similique, sapiente culpa nobis dolore suscipit facere at debitis iste! Cumque temporibus inventore ipsum dicta id, eaque sapiente ratione minima. Maiores iure exercitationem impedit similique, ipsa amet sint odio nemo eos omnis adipisci reiciendis officia quia voluptate! In error illo odio suscipit alias culpa minima?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum similique quae odit rem quo laboriosam natus, sequi quaerat! Eius ipsam assumenda, incidunt atque numquam dolorum cumque eaque voluptate velit ullam temporibus. Autem, ea? Aut molestiae nostrum, porro deleniti consectetur eaque officiis vero magnam? Autem delectus debitis hic, saepe porro nulla cum sit velit non libero possimus adipisci animi obcaecati quod qui provident enim corporis dignissimos mollitia quam sunt quidem ad laboriosam et. Nam, expedita soluta! Culpa, error vel ratione tenetur dolore numquam expedita quia quisquam commodi laboriosam maxime nulla officia repudiandae impedit sapiente beatae ipsa temporibus odio maiores ut nam voluptatibus animi hic? Harum similique, sapiente culpa nobis dolore suscipit facere at debitis iste! Cumque temporibus inventore ipsum dicta id, eaque sapiente ratione minima. Maiores iure exercitationem impedit similique, ipsa amet sint odio nemo eos omnis adipisci reiciendis officia quia voluptate! In error illo odio suscipit alias culpa minima?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum similique quae odit rem quo laboriosam natus, sequi quaerat! Eius ipsam assumenda, incidunt atque numquam dolorum cumque eaque voluptate velit ullam temporibus. Autem, ea? Aut molestiae nostrum, porro deleniti consectetur eaque officiis vero magnam? Autem delectus debitis hic, saepe porro nulla cum sit velit non libero possimus adipisci animi obcaecati quod qui provident enim corporis dignissimos mollitia quam sunt quidem ad laboriosam et. Nam, expedita soluta! Culpa, error vel ratione tenetur dolore numquam expedita quia quisquam commodi laboriosam maxime nulla officia repudiandae impedit sapiente beatae ipsa temporibus odio maiores ut nam voluptatibus animi hic? Harum similique, sapiente culpa nobis dolore suscipit facere at debitis iste! Cumque temporibus inventore ipsum dicta id, eaque sapiente ratione minima. Maiores iure exercitationem impedit similique, ipsa amet sint odio nemo eos omnis adipisci reiciendis officia quia voluptate! In error illo odio suscipit alias culpa minima?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum similique quae odit rem quo laboriosam natus, sequi quaerat! Eius ipsam assumenda, incidunt atque numquam dolorum cumque eaque voluptate velit ullam temporibus. Autem, ea? Aut molestiae nostrum, porro deleniti consectetur eaque officiis vero magnam? Autem delectus debitis hic, saepe porro nulla cum sit velit non libero possimus adipisci animi obcaecati quod qui provident enim corporis dignissimos mollitia quam sunt quidem ad laboriosam et. Nam, expedita soluta! Culpa, error vel ratione tenetur dolore numquam expedita quia quisquam commodi laboriosam maxime nulla officia repudiandae impedit sapiente beatae ipsa temporibus odio maiores ut nam voluptatibus animi hic? Harum similique, sapiente culpa nobis dolore suscipit facere at debitis iste! Cumque temporibus inventore ipsum dicta id, eaque sapiente ratione minima. Maiores iure exercitationem impedit similique, ipsa amet sint odio nemo eos omnis adipisci reiciendis officia quia voluptate! In error illo odio suscipit alias culpa minima?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum similique quae odit rem quo laboriosam natus, sequi quaerat! Eius ipsam assumenda, incidunt atque numquam dolorum cumque eaque voluptate velit ullam temporibus. Autem, ea? Aut molestiae nostrum, porro deleniti consectetur eaque officiis vero magnam? Autem delectus debitis hic, saepe porro nulla cum sit velit non libero possimus adipisci animi obcaecati quod qui provident enim corporis dignissimos mollitia quam sunt quidem ad laboriosam et. Nam, expedita soluta! Culpa, error vel ratione tenetur dolore numquam expedita quia quisquam commodi laboriosam maxime nulla officia repudiandae impedit sapiente beatae ipsa temporibus odio maiores ut nam voluptatibus animi hic? Harum similique, sapiente culpa nobis dolore suscipit facere at debitis iste! Cumque temporibus inventore ipsum dicta id, eaque sapiente ratione minima. Maiores iure exercitationem impedit similique, ipsa amet sint odio nemo eos omnis adipisci reiciendis officia quia voluptate! In error illo odio suscipit alias culpa minima?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laborum similique quae odit rem quo laboriosam natus, sequi quaerat! Eius ipsam assumenda, incidunt atque numquam dolorum cumque eaque voluptate velit ullam temporibus. Autem, ea? Aut molestiae nostrum, porro deleniti consectetur eaque officiis vero magnam? Autem delectus debitis hic, saepe porro nulla cum sit velit non libero possimus adipisci animi obcaecati quod qui provident enim corporis dignissimos mollitia quam sunt quidem ad laboriosam et. Nam, expedita soluta! Culpa, error vel ratione tenetur dolore numquam expedita quia quisquam commodi laboriosam maxime nulla officia repudiandae impedit sapiente beatae ipsa temporibus odio maiores ut nam voluptatibus animi hic? Harum similique, sapiente culpa nobis dolore suscipit facere at debitis iste! Cumque temporibus inventore ipsum dicta id, eaque sapiente ratione minima. Maiores iure exercitationem impedit similique, ipsa amet sint odio nemo eos omnis adipisci reiciendis officia quia voluptate! In error illo odio suscipit alias culpa minima?
+        </p>
+    </main>
+</body>
+</html>
+
+<!-- 
+    Position static: posicion por defecto de los elementos
+    Position inital: regresar o formatear la posision inicial 
+    Position inherit: Se lo colocamos si queremos que se herede la posicion del elemento padre
+ -->
